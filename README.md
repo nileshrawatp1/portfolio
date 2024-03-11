@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://nilesh.vercel.app/" target="_blank">nilesh.tech</a>
+  <a href="https://nileshrawat.vercel.app/" target="_blank">nileshrawat.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
