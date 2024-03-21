@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Nilesh Rawat </span>
             from <span className="purple"> Faridabad, India.</span>
             <br />
-            I am currently employed as a Sr. Product Developer at Ameyo.
+            I am currently employed as a Integration & Customization Engineer 2 at Ameyo.
             <br />
             I have completed Bechlors of Technology (B.Tech) in Computer Science at Lingayas GVKS University.
             <br />
