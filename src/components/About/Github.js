@@ -3,6 +3,8 @@ import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
 
 function Github() {
+    const weekLabels = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+    const year = new Date().getFullYear();
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
@@ -10,10 +12,13 @@ function Github() {
       </h1>
       <GitHubCalendar
         username="nileshrawatp1"
+        year={year}
         blockSize={15}
-        blockMargin={5}
+        blockMargin={6}
         color="#c084f5"
         fontSize={16}
+        weekStart={1}
+        showWeekdayLabels={weekLabels}
       />
     </Row>
   );
