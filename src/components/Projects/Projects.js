@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import textconvertor from "../../Assets/Projects/textConversion.png";
 import newsApp from "../../Assets/Projects/newsApp.png";
 import codeEditor from "../../Assets/Projects/codeEditor.png";
+import keyStroke from "../../Assets/Projects/key-stroke.png";
 
 function Projects() {
   return (
@@ -26,7 +27,7 @@ function Projects() {
               title="Text Convertor App"
               description="Online text conversion app build with ReactJS only to help convert text from lower to uppar. Also includes github markdown table of conent. It help text in encoding and decoding aswell. Suports dark mode as well with easy to use UI."
               ghLink="https://github.com/nileshrawatp1/textConversion"
-              demoLink="https://nilesh-text-conversion.vercel.app"              
+              demoLink="https://nilesh-text-conversion.vercel.app"
             />
           </Col>
 
@@ -51,7 +52,18 @@ function Projects() {
             />
           </Col>
 
-        </Row> 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={keyStroke}
+              isBlog={false}
+              title="Key Stroke Code"
+              description="Discover an interactive tool that instantly displays JavaScript event keycodes as you press any key on your keyboard. Enhance your web development skills with real-time keycode feedback and learn keyboard events effortlessly."
+              ghLink="https://github.com/nileshrawatp1/keystroke-code"
+              demoLink="https://keystroke-code.vercel.app"
+            />
+          </Col>
+
+        </Row>
       </Container>
     </Container>
   );
