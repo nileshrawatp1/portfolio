@@ -6,6 +6,8 @@ import textconvertor from "../../Assets/Projects/textConversion.png";
 import newsApp from "../../Assets/Projects/newsApp.png";
 import codeEditor from "../../Assets/Projects/codeEditor.png";
 import keyStroke from "../../Assets/Projects/key-stroke.png";
+import keyDrum from "../../Assets/Projects/key-drum.png";
+import eKart from "../../Assets/Projects/eKart.png";
 
 function Projects() {
   return (
@@ -60,6 +62,28 @@ function Projects() {
               description="Discover an interactive tool that instantly displays JavaScript event keycodes as you press any key on your keyboard. Enhance your web development skills with real-time keycode feedback and learn keyboard events effortlessly."
               ghLink="https://github.com/nileshrawatp1/keystroke-code"
               demoLink="https://keystroke-code.vercel.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={keyDrum}
+              isBlog={false}
+              title="Drum Kit"
+              description="Discover an interactive tool that instantly plays the drum from the specific keyboards keys press on the tab. You can listen and create the drump as per your choice. This project is created by just using HTML, CSS and javaScript. Feel free to send the feedback any case of any concerns."
+              ghLink="https://github.com/nileshrawatp1/JS-Drum-kit"
+              demoLink="https://nileshrawatp1.github.io/JS-Drum-kit/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eKart}
+              isBlog={false}
+              title="eKart Project"
+              description="Discover an interactive tool that Discover a world of amazing products, all at your fingertips. Our e-commerce website offers a wide range of high-quality items, from the latest fashion trends and electronics to home essentials and unique gifts. We bring together a curated collection of brands and products to make your shopping experience enjoyable and hassle-free."
+              ghLink="https://github.com/nileshrawatp1/bhuppi-ecommerce"
+              demoLink="https://bhuppi-ecommerce.vercel.app"
             />
           </Col>
 
