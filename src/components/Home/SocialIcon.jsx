@@ -50,7 +50,7 @@ const SocialIcons = () => {
                     onMouseLeave={() => setHoveredIcon(null)}
                 >
                     <a href={socialLink.link} target="_blank" rel="noopener noreferrer">
-                        <button className='social-button'>
+                        <button className={`${socialLink.tooltip} social-button`}>
                             {socialLink.icon}
                         </button>
                     </a>
