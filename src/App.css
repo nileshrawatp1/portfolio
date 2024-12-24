@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Social Icons */
+
+.social-icons-container{
+    display: flex;
+    margin-left: 28%;
+}
+.icon-container {
+    margin-top: 2rem;
+    margin-left: 6rem;
+    position: relative;
+    display: inline-block;
+}
+
+.icon-container:hover svg {
+    transform: scale(1.25);
+    transition: transform 0.2s, stroke 0.2s;
+}
+
+.icon-container:hover .tooltip {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+}
+
+.tooltip {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    opacity: 0;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.social-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.svg-icons {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    transition: transform 0.2s, stroke 0.2s;
+    stroke: #4f009d;
+}
+
+.github-icon:hover svg {
+    stroke: #333;
+}
+
+.twitter-icon:hover svg {
+    stroke: #1da1f2;
+}
+
+.linkedin-icon:hover svg {
+    stroke: #0077b5;
+}
+
+.instagram-icon:hover svg {
+    stroke: #c13584;
+}
