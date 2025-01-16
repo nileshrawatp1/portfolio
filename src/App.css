@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.resume-pdf-container {
+    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

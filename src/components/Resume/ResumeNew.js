@@ -33,13 +33,13 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume justify-content-center">
-            <div style={{ maxWidth: "900px", width: "100%", textAlign: "center" }}>
+            <div className="resume-pdf-container" style={{ maxWidth: "900px", width: "100%", textAlign: "center" }}>
             <Document file={pdf}>
                 <div style={{ marginBottom: "20px" }}>
-                <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+                <Page pageNumber={1} scale={width > 786 ? 1.7 : 1} />
                 </div>
                 <div>
-                <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+                <Page pageNumber={2} scale={width > 786 ? 1.7 : 1} />
                 </div>
             </Document>
             </div>
