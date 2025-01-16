@@ -42,11 +42,12 @@
 
 .social-icons-container{
     display: flex;
-    margin-left: 28%;
+    justify-content: center;
+    margin: 2rem auto 0 auto;
+    max-width: 90%;
 }
 .icon-container {
-    margin-top: 2rem;
-    margin-left: 6rem;
+    margin: 0 1rem;
     position: relative;
     display: inline-block;
 }
@@ -63,7 +64,7 @@
 
 .tooltip {
     position: absolute;
-    top: -40px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 20;
@@ -106,4 +107,31 @@
 
 .Instagram:hover .svg-icons {
     stroke: #c13584;
+}
+
+@media (min-width: 768px) {
+    .icon-container {
+        margin: 0 3rem;
+    }
+
+    .svg-icons {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .tooltip {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .svg-icons {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .tooltip {
+        font-size: 1rem;
+        top: 30px;
+    }
 }
